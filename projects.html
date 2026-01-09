@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Your Name</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+<header class="header">
+    <a href="index.html" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-moon' id="theme-toggle"></i>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.php">Contact</a>
     </nav>
-  </header>
-  <main>
-    <section class="projects">
-      <h1>Projects</h1>
-      <p>Here are some of the projects I have worked on:</p>
-      <div class="project-card">
-        <h3>Related Links</h3>
-        <p>A site that contains all the student name with related links.</p>
-        <a href="related.html" target="_blank">View Source</a>
-      </div>
-      <div class="project-card">
-        <h3>Quotations</h3>
-        <p>Built with HTML and CSS.</p>
-        <a href="quotations.html">View Source</a>
-      </div>
-    </section>
-  </main>
+</header>
+
+<section class="projects">
+    <div class="section-box">
+        <h2>My <span>Projects</span></h2>
+
+        <div class="project-item">
+            <h3>Quotations Website</h3>
+            <p>A quotations website built with HTML and CSS.</p>
+            <a href="quotations.html" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Related Links</h3>
+            <p>A related-links website for Computer Engineering 1st year students.</p>
+            <a href="related.html" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Welcome Video</h3>
+            <p>A welcome video on my YouTube channel.</p>
+            <a href="https://www.youtube.com/watch?v=gP54Ujj1hgk" target="_blank">Watch Video</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Interview with Client</h3>
+            <p>Recorded interview discussing project requirements.</p>
+            <a href="https://www.youtube.com/watch?v=Pk2HQG2jNHM" target="_blank">Watch Video</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Final Demo with Client</h3>
+            <p>Final demonstration of the website.</p>
+            <a href="https://www.youtube.com/watch?v=NsmO3XnzL60" target="_blank">Watch Video</a>
+        </div>
+
+        <div class="project-item">
+            <h3>Project Journal</h3>
+            <div class="journal-images">
+                <img src="https://media.discordapp.net/attachments/1339234626874507317/1386696244134412419/received_1410371750106200.jpg" alt="Meeting 1">
+                <img src="https://media.discordapp.net/attachments/1339234626874507317/1386696244537327656/received_23988531784092656.jpg" alt="Meeting 2">
+                <img src="https://media.discordapp.net/attachments/1339234626874507317/1386696244814020629/received_2180843319055783.jpg" alt="Meeting 3">
+                <img src="https://media.discordapp.net/attachments/1339234626874507317/1386696245107753033/received_740560285289638.jpg" alt="Meeting 4">
+                <img src="https://media.discordapp.net/attachments/1339234626874507317/1386696245552222268/received_710778421449780.jpg" alt="Meeting 5">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
