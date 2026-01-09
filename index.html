@@ -1,56 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Justol Online Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <div class="logo">Justol Portfolio</div>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#youtube">YouTube</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  
-  <header>
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, I'm Justol. Here's a showcase of my work and interests!</p>
-  </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Write a short bio about yourself here. Mention your skills, interests, and goals.</p>
-  </section>
+<header class="header">
+    <a href="index.html" class="logo">Portfolio</a>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div id="projects-container"></div>
-  </section>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-moon' id="theme-toggle"></i>
 
-  <section id="youtube">
-    <h2>My YouTube Channel</h2>
-    <a class="youtube-link" href="https://www.youtube.com/your-channel-link" target="_blank">
-      Visit my YouTube channel
-    </a>
-    <div class="youtube-embed">
-      <!-- Example embed: Replace with your own video or playlist -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed?listType=user_uploads&list=your-channel-name" frameborder="0" allowfullscreen></iframe>
+    <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.php">Contact</a>
+    </nav>
+</header>
+
+<section class="home">
+    <div class="section-box">
+        <h1>Hi, I'm <span>Justol</span></h1>
+        <h3>a 2nd year student</h3>
+        <p>studied at University of Bohol, currently pursuing my degree in Computer Engineering.</p>
+        <br>
+        <a href="contact.php" class="btn">Hire Me</a>
     </div>
-  </section>
+</section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-  </section>
-  
-  <footer>
-    <p>&copy; 2025 Justol. All rights reserved.</p>
-  </footer>
-  <script src="projects.js"></script>
+
+<script src="script.js"></script>
 </body>
 </html>
