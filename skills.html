@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skills | Your Name</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills | Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+<header class="header">
+    <a href="index.html" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-moon' id="theme-toggle"></i>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html" class="active">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.php">Contact</a>
     </nav>
-  </header>
-  <main>
-    <section class="skills">
-      <h1>My Skills</h1>
-      <p>Here are some of the skills I have acquired throughout my career:</p>
-      
-      <div class="skill">
-        <h2>HTML</h2>
-        <div class="progress-bar" style="width: 85%"></div>
-      </div>
+</header>
 
-      <div class="skill">
-        <h2>CSS</h2>
-        <div class="progress-bar" style="width: 90%"></div>
-      </div>
+<section class="skills">
+    <div class="section-box">
+        <h2>My <span>Skills</span></h2>
 
-      <div class="skill">
-        <h2>Java</h2>
-        <div class="progress-bar" style="width: 80%"></div>
-      </div>
+        <a href="portfolio/index.html" class="skill" target="_blank">
+            <p>HTML</p>
+            <div class="bar"><span style="width: 90%"></span></div>
+        </a>
 
-      <div class="skill">
-        <h2>PHP</h2>
-        <div class="progress-bar" style="width: 75%"></div>
-      </div>
+        <a href="portfolio/index.html" class="skill" target="_blank">
+            <p>CSS</p>
+            <div class="bar"><span style="width: 85%"></span></div>
+        </a>
 
-      <div class="skill">
-        <h2>JavaScript</h2>
-        <div class="progress-bar" style="width: 70%"></div>
-      </div>
+        <a href="java-console/index.html" class="skill" target="_blank">
+            <p>JavaScript</p>
+            <div class="bar"><span style="width: 75%"></span></div>
+        </a>
+    </div>
+</section>
 
-    </section>
-  </main>
+
+
+<script src="script.js"></script>
 </body>
 </html>
