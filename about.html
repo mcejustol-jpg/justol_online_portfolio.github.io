@@ -1,30 +1,51 @@
-<!-- about.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me | Your Name</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+
+<header class="header">
+    <a href="index.html" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <i class='bx bx-moon' id="theme-toggle"></i>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.php">Contact</a>
     </nav>
-  </header>
-  <main>
-    <section class="about">
-      <h1>About Me</h1>
-      <p>Hello! I'm Ma. Concepcion E. Justol, a 1st year student in University of Bohol studied Bachelor of Science in Computer Engineering.
-         I specialize in coding for a website. Welcome to my portfolio where I share more about my journey, skills, and projects.</p>
-    </section>
-  </main>
+</header>
+
+<section class="about">
+    <div class="section-box">
+        <h1>About <span>Me</span></h1>
+
+        <p>
+            I am a 2nd year Computer Engineering student at the University of Bohol.
+            I am passionate about technology, programming, and creating useful digital solutions.
+        </p>
+
+        <h3>Connect with me</h3>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/share/1DhiXGPyKB/?mibextid=wwXIfr" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/whostoloveee?igsh=MWkydmxkMHcxYnUzNA%3D%3D&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.tiktok.com/@m_jus8?_r=1&_d=secCgYIASAHKAESPgo8EuqdkxU5L%2B3DO9V1qCPs8wXUfXVeV15m9nPXf9fRw9Tg7KlZ5gi9CB15OicB7PrSWPhTOnx8B2cX5CLrGgA%3D&_svg=1&checksum=c289223417079142c6481741e74eee7175a4077a35da751828210f7dc2899bc3&item_author_type=1&sec_uid=MS4wLjABAAAAgCfEQSTTixzybHjMUpbcuqSRanH7NgGbqmtTNSc4Q1VcHV624wSNIePjLzxbhvWv&sec_user_id=MS4wLjABAAAAgCfEQSTTixzybHjMUpbcuqSRanH7NgGbqmtTNSc4Q1VcHV624wSNIePjLzxbhvWv&share_app_id=1180&share_author_id=6795029529503269889&share_link_id=A71CCAF6-33A0-4B45-BCE4-CB616C8790C6&share_region=PH&share_scene=1&sharer_language=en&social_share_type=4&source=h5_t&timestamp=1767926586&tt_from=copy&u_code=db1d2ch8ajakf2&ug_btm=b8727%2Cb0&user_id=6795029529503269889&utm_campaign=client_share&utm_medium=ios&utm_source=copy" target="_blank"><i class='bx bxl-tiktok'></i></a>
+            <a href="https://github.com/mcejustol-jpg" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/mc-justol-69b35b34a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
